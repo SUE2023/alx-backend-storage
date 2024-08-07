@@ -1,0 +1,12 @@
+-- Orders table
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    item_id INT,
+    quantity INT
+);
+
+-- Items table
+CREATE TABLE items (
+    item_id INT PRIMARY KEY,
+    quantity INT
+);
